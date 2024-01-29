@@ -1,0 +1,101 @@
+#container, html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    font-family: Roboto,'Helvetica Neue', sans-serif;
+    color:#000000;
+}
+a{
+    color: green;
+}
+
+p{
+    padding: 0 0 0 2rem;
+}
+
+.login{
+    padding: 2rem;
+}
+
+#container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex: auto;
+}
+
+.shell{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex:auto;
+}
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(224, 224, 224);
+    flex:auto;
+    padding-left: 2rem;
+}
+
+h2{
+    padding-left: 2rem;
+}
+
+#side-panel{
+    display: flex;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    justify-content: center;
+    padding: 150px;
+}
+
+.form-row{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    justify-content: left;
+}
+
+#form-section{
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+}
+
+#section-1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.form-row input{
+    appearance: none;
+    border: 1px solid #b6b6b6;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 2rem;
+    width: 100px;
+    height: 50px;
+}
+
+.form-row input:focus{
+    appearance: none;
+    outline: none;
+    filter: drop-shadow(0 0 0.1rem rgb(0, 0, 0));
+    border: 1.5px solid #0586ff;
+
+}
